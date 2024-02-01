@@ -5084,38 +5084,37 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:samobot-com/samodule-pos.git",
-                "reference": "fd9facf26b24c5c61e9418c11f316c3b61bf4964"
+                "reference": "e049c9178c533208e834a4466dda7ea39f41571a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samobot-com/samodule-pos/zipball/fd9facf26b24c5c61e9418c11f316c3b61bf4964",
-                "reference": "fd9facf26b24c5c61e9418c11f316c3b61bf4964",
+                "url": "https://api.github.com/repos/samobot-com/samodule-pos/zipball/e049c9178c533208e834a4466dda7ea39f41571a",
+                "reference": "e049c9178c533208e834a4466dda7ea39f41571a",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.2",
-                "inertiajs/inertia-laravel": "^0.6.3",
-                "laravel/framework": "9.52",
-                "laravel/sanctum": "^3.2",
-                "laravel/tinker": "^2.8",
+                "http-interop/http-factory-guzzle": "^1.2",
+                "inertiajs/inertia-laravel": "^0.6.11",
+                "laravel/framework": "^9.52",
+                "laravel/sanctum": "^3.0",
+                "laravel/tinker": "^2.7",
+                "league/flysystem-aws-s3-v3": "^3.0",
+                "lunarphp/lunar": "^0.7",
+                "lunarphp/stripe": "^0.7",
                 "php": "^8.1",
+                "stripe/stripe-php": "^7.128",
                 "tightenco/ziggy": "^1.0"
             },
             "require-dev": {
-                "barryvdh/laravel-debugbar": "^3.8",
+                "beyondcode/laravel-dump-server": "^1.9",
                 "fakerphp/faker": "^1.9.1",
                 "laravel/breeze": "^1.19",
                 "laravel/pint": "^1.0",
-                "laravel/sail": "^1.18",
+                "laravel/sail": "^1.15",
                 "mockery/mockery": "^1.4.4",
-                "nunomaduro/collision": "^7.0",
-                "nunomaduro/larastan": "^2.5",
-                "phpstan/phpstan": "^1.10.1",
-                "phpstan/phpstan-strict-rules": "^1.5.0",
-                "phpunit/phpunit": "^10.0",
-                "slevomat/coding-standard": "^8.8.0",
-                "spatie/laravel-ignition": "v1.x-dev",
-                "squizlabs/php_codesniffer": "^3.7.2"
+                "nunomaduro/collision": "^6.3",
+                "phpunit/phpunit": "^9.5.10"
             },
             "default-branch": true,
             "type": "library",
@@ -5128,14 +5127,15 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Samobot\\Pos\\": "src/"
+                    "Samobot\\Pos\\": "src/",
+                    "Samobot\\Pos\\Database\\Seeders\\": "database/seeders/"
                 }
             },
             "support": {
                 "source": "https://github.com/samobot-com/samodule-pos/tree/main",
                 "issues": "https://github.com/samobot-com/samodule-pos/issues"
             },
-            "time": "2023-12-29T11:45:20+00:00"
+            "time": "2024-01-31T12:58:57+00:00"
         },
         {
             "name": "samobot/upgates-sync",
