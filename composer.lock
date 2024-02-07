@@ -5084,12 +5084,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:samobot-com/samodule-pos.git",
-                "reference": "e049c9178c533208e834a4466dda7ea39f41571a"
+                "reference": "2c56cb6aeb1c06bc26afaff682fdf0d3ae78bf8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samobot-com/samodule-pos/zipball/e049c9178c533208e834a4466dda7ea39f41571a",
-                "reference": "e049c9178c533208e834a4466dda7ea39f41571a",
+                "url": "https://api.github.com/repos/samobot-com/samodule-pos/zipball/2c56cb6aeb1c06bc26afaff682fdf0d3ae78bf8c",
+                "reference": "2c56cb6aeb1c06bc26afaff682fdf0d3ae78bf8c",
                 "shasum": ""
             },
             "require": {
@@ -5135,7 +5135,7 @@
                 "source": "https://github.com/samobot-com/samodule-pos/tree/main",
                 "issues": "https://github.com/samobot-com/samodule-pos/issues"
             },
-            "time": "2024-01-31T12:58:57+00:00"
+            "time": "2024-02-07T15:53:44+00:00"
         },
         {
             "name": "samobot/upgates-sync",
